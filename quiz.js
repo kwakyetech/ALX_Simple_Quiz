@@ -10,7 +10,7 @@ const checkAnswer = () => {
         feedback.textContent = "Correct! Well done.";
         feedback.style.color = "green";
     } else {
-        feedback.textContent = "Incorrect. Please try again.";
+        feedback.textContent = "That's incorrect. Try again!";
         feedback.style.color = "red";
     }
     document.querySelector('input[name="quiz"]:checked') = ''; // Clear the input field
