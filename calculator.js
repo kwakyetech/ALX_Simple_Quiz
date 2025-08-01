@@ -61,4 +61,4 @@ calculation_results.appendChild(subtraction);
 calculation_results.appendChild(multiplication);
 calculation_results.appendChild(division);
 
-document.getElementById("calculation_results").value = '';
+calculation_results.textContent = "";
